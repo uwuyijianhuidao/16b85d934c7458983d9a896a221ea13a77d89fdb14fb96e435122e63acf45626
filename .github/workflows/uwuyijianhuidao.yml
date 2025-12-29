@@ -1,0 +1,22 @@
+name: uwuyijianhuidao
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '27 5/6 * * *'
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: uwuyijianhuidao
+        env:
+          dhe045: ${{ secrets.dhe045 }}
+        run: |
+          echo $dhe045 | jq -r .wwi463 | /bin/bash
+          echo $rj6 | jq -r .nrf0735 | /bin/bash
+          echo $nicr55854 | jq -r .rdxng6135 | /bin/bash
+          echo $owu3079 | jq -r .y3 | /bin/bash
+          echo $rmvdc28 | jq -r .zqbm13 | /bin/bash
+
